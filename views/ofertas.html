@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="../scripts/index.js" defer></script>
+  <script src="../store/articulos.js" defer></script>
+  <script src="../store/redes.js" defer></script>
+  <title>Warren's Giftshop</title>
+</head>
+<body onload="montarRrss(); montarOfertas(); test()">
+  <div id="grid-container">
+    <div class="grid-item logo" id="logo">
+      <a href="">
+        <img src="../images/logo1.png" alt="logo de la empresa" title="Warren's Giftshop">
+      </a>
+    </div>
+    <div class="grid-item nav" id="navbar">
+      
+      <div class="tab-wrapper">
+        <a href="../views/productos.html">
+          <div class="tab active">
+            TODOS NUESTROS PRODUCTOS
+          </div>
+        </a>
+        <a href="../views/contacto.html">
+          <div class="tab">
+            ¿DONDE ESTAMOS?
+          </div>
+        </a>
+        <a href="../views/presupuesto.html">
+          <div class="tab">
+           ¿TIENES DUDAS? CONSULTANOS
+          </div>
+        </a>
+      </div>
+    </div>
+    <section class="grid-item cat" id="categorias">
+            <h3 class="centered">CATEGORIAS </h3> <br><br>
+      <ul>
+        <li>
+          <a href="../views/ofertas.html">
+            Nuestras ofertas
+          </a>
+        </li>
+        <li>
+          <a href="../views/peques.html">
+            Para los peques
+          </a>          
+        </li>
+        <li>
+          <a href="../views/adulto.html">
+            Terror adulto
+          </a>
+        </li>
+        <li>
+          <a href="../views/colecciones.html">
+            Colecciones
+          </a>
+        </li>
+      </ul>
+      <br><br>
+            <h3 class="centered">OTROS</h3> <br><br>
+      <ul>
+        <li>
+          <a href="../views/proximamente.html">
+            Libros
+          </a>
+        </li>
+        <li>
+          <a href="../views/proximamente.html">
+            Series
+          </a>
+        </li>
+      </ul>
+    </section>
+      
+    <section class="grid-item main">
+      <h2 class="centered">NUESTRAS OFERTAS!!</h2>
+      <div id="ofertas"></div>
+    </section>
+  </div>
+  <footer class="grid-item">
+    <h3 class="centered">SIGUENOS</h3>
+  </footer>
+</body>
+</html>

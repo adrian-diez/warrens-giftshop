@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="../scripts/index.js" defer></script>
+  <script src="../store/redes.js" defer></script>
+  <script src="../store/articulos.js" defer></script>
+  <title>Warren's Giftshop</title>
+</head>
+<body onload="montarRrss('..'); test()">
+  <div id="grid-container">
+    <div class="grid-item logo" id="logo">
+      <a href="../index.html">
+        <img src="../images/logo1.png" alt="logo de la empresa" title="Warren's Giftshop">
+      </a>
+    </div>
+    <header class="grid-item nav" id="navbar">
+      
+      <div class="tab-wrapper">
+        <a href="../views/productos.html">
+          <div class="tab">
+            TODOS NUESTROS PRODUCTOS
+          </div>
+        </a>
+        <a href="../views/contacto.html">
+          <div class="tab active">
+            ¿DONDE ESTAMOS?
+          </div>
+        </a>
+        <a href="../views/presupuesto.html">
+          <div class="tab">
+           ¿TIENES DUDAS? CONSULTANOS
+          </div>
+        </a>
+      </div>
+    </header>
+    <section class="grid-item cat" id="categorias">
+            <h3 class="centered">CATEGORIAS </h3> <br><br>
+      <ul>
+        <li>
+          <a href="../views/ofertas.html">
+            Nuestras ofertas
+          </a>
+        </li>
+        <li>
+          <a href="../views/ofertas.html">
+            Para los peques
+          </a>          
+        </li>
+        <li>
+          <a href="../views/adulto.html">
+            Terror adulto
+          </a>
+        </li>
+        <li>
+          <a href="../views/colecciones.html">
+            Colecciones
+          </a>
+        </li>
+      </ul>
+      <br><br>
+            <h3 class="centered">OTROS </h3> <br><br>
+      <ul>
+        <li>
+          <a href="../views/proximamente.html">
+            Libros
+          </a>
+        </li>
+        <li>
+          <a href="../views/proximamente.html">
+            Series
+          </a>
+        </li>
+      </ul>
+    </section>
+      
+    <main class="grid-item main"  id="contacto">
+      <h2>¿DONDE ESTAMOS?</h2>
+      <div id="contacto-wrapper">
+        <div>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.9737173277094!2d-3.7093107415345847!3d40.431580876003906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42286773f4e945%3A0xb7bb02684eef3ca6!2sC.%20de%20Galileo%2C%2022%2C%2028015%20Madrid!5e0!3m2!1sen!2ses!4v1671551183212!5m2!1sen!2ses" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <article id="datos-de-contacto">
+          <h4>Warren's Giftshop</h4> <br>
+          C/ Galileo, 22 <br>
+          <br>
+          28015 Madrid <br>
+          <br>
+          &lt;M&gt; San Bernardo (Lineas 2 y 4) <br>
+          <br>
+          HORARIO TIENDA <br>
+          Lunes- Martes- Miercoles & Jueves <br>
+          10:00 a 14:00 <br>
+          <br>
+          Viernes <br>
+          10:00 a 14:00 / 17:30 a 20:30 <br>
+          <br>
+          Sabado <br>
+          11:00 a 14:00 / 17:30 a 20:30 <br>
+          <br>
+          Telefono: 686706763 <br>
+          Email: info@warrensgiftshop.es
+        </article>
+      </div>
+    </main>
+  </div>
+  <footer class="grid-item">
+    <h3 class="centered">SIGUENOS</h3>
+  </footer>
+</body>
+</html>

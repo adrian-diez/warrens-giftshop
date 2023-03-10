@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/index.js" defer></script>
+  <script src="store/articulos.js" defer></script>
+  <script src="store/redes.js" defer></script>
+  <title>Warren's Giftshop</title>
+</head>
+<body>
+  <div id="landing-fondo">
+    <section id="inicio-wrapper">
+      <div id="titulo">
+        <img 
+            src="images/logo-transp.png" 
+            alt="logo de la empresa" 
+            title="Warren's Giftshop"
+            class="logo-inicio"
+            >
+        <h2>Los mejores productos de miedo. Envios gratis a toda España a partir de 50&euro;</h2>
+      </div>
+      <div id="login">
+        <p style="margin-left:7%;">¿Entrar como visitante?</p>
+        <a href="/views/productos.html" class="btn" style="margin-left:18%;">Entrar</a>
+      <br>
+      <p style="margin-left:24%;">O</p>
+        <p style="margin-left:11%;"> entra con tu cuenta</p>
+        <form action="#">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <label for="contraseña">Contraseña</label>
+          <input type="password" name="contraseña" id="contraseña">
+        </form>
+        <a href="/views/productos.html" class="btn">Entrar</a>
+        <p>¿No estas registrado/a? <button type="button" class="btn">Regístrate</button></p>
+        <div id="register"></div>
+      </div>
+    </section>
+  </div>
+  
+</body>
+</html>
